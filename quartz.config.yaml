@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: thenekowiz.github.io
+  baseUrl: thenekowiz.github.io/Space-Drifter
   ignorePatterns:
     - private
     - templates
