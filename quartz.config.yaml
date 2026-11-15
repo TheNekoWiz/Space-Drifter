@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: NekoWiz.Space-Drifter.Wiki
+  baseUrl: thenekowiz.github.io
   ignorePatterns:
     - private
     - templates
