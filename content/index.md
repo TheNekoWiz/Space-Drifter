@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+title: Время погрузится в безду космоса
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Добро пожаловать на главную страницу вики
+[[основная информация]]
+
