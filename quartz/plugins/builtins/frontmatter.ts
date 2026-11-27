@@ -1,6 +1,6 @@
 import matter from "gray-matter"
 import remarkFrontmatter from "remark-frontmatter"
-import yaml from "js-yaml"
+import { JSON_SCHEMA, load } from "js-yaml"
 import toml from "toml"
 import { QuartzTransformerPlugin } from "../types"
 import { QuartzPluginData } from "../vfile"
@@ -158,7 +158,7 @@ export function readFrontmatterData(
       delimiters: options.delimiters ?? frontmatterDefaults.delimiters,
       language,
       engines: {
-        yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object,
+        yaml: (s) => load(s, { schema: JSON_SCHEMA }) as object,
         toml: (s) => toml.parse(s) as object,
         javascript: refuseJavaScript,
         js: refuseJavaScript,
